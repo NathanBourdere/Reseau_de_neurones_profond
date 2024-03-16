@@ -31,7 +31,7 @@ $$ Z^{[c]} = W^{[c]}A^{[c-1]} + b^{[c]} A^{[c]} = \sigma(Z^{[c]}) $$
 
 Back Propagation : 
 
-$$ dZ^{[c]} = A^{[c]} - y $$ dW^{[c]} = \frac{1}{m} dZ^{[c]} A^{[c-1]T} db^{[c]} = \frac{1}{m} \sum dZ^{[c]} $$
+$$ dZ^{[c]} = A^{[c]} - y dW^{[c]} = \frac{1}{m} dZ^{[c]} A^{[c-1]T} db^{[c]} = \frac{1}{m} \sum dZ^{[c]} $$
 
 Log Loss : 
 
