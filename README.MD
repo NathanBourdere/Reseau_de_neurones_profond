@@ -27,7 +27,7 @@ Entraînement du Réseau de Neurones : La fonction deep_neural_network(X, y, hid
 
 Forward Propagation : 
 
-$$ Z^{[c]} = W^{[c]}A^{[c-1]} + b^{[c]} $ $ A^{[c]} = \sigma(Z^{[c]}) $$
+$$ Z^{[c]} = W^{[c]}A^{[c-1]} + b^{[c]} $$ A^{[c]} = \sigma(Z^{[c]}) $$
 
 Back Propagation : 
 
